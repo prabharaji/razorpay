@@ -1,0 +1,289 @@
+html{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.template{
+    background-image: url(img/temp.jpg);
+    background-size: 100%;
+    height:90vh;
+    background-repeat: no-repeat;
+}
+.template a:hover{
+    color:rgb(0, 225, 255)!important;
+}
+::placeholder{
+    outline-color: skyblue !important;
+    color:lightgray !important;
+}
+.sec2 h4::after{
+    display:block;
+    height: 4px;
+    background-color: rgba(108, 206, 206, 0.986);
+    content:" ";
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 500px;
+    
+}
+.sec2 .grid{
+    text-align: left;
+    background:linear-gradient(purple,black);
+    color: white;
+    width: 300px;
+    height:350px;
+    margin-right: 80px;
+    margin-bottom: 200px;
+    padding:20px;
+    padding-top:100px;
+    border-radius: 7px;
+    
+}
+.sec2 .grid a{
+    color: white;
+    text-decoration-color: white;
+}
+.sec2 .grid p{
+    color:rgb(231, 226, 226);
+}
+.sec2 .grid:hover{
+    cursor: pointer;
+    opacity: 0.95;
+    transform: scale(1.05);
+    transition: 1ms;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+.sec3 {
+    background-image: url(img/actual_back.jpg);
+    height: 90vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 150px;
+}
+
+.sec3 .box{
+    width:300px;
+    height: 270px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 280px;
+    margin-bottom: 50px;
+    padding: 30px;
+    padding-top: 70px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sec3 .box1{
+    width:300px;
+    height: 270px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    padding: 30px;
+    padding-top: 70px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sec3 .box2{
+    width:300px;
+    height: 270px;
+    margin-left: 100px;
+    padding: 30px;
+    padding-top: 70px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sec3 .box3{
+    width:300px;
+    height: 270px;
+    margin-left: 50px;
+    padding: 30px;
+    padding-top: 70px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sec3 .box:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1ms;
+    box-shadow: 10px 10px 10px rgba(211, 211, 211, 0.356);
+}
+.sec3 .box1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1ms;
+    box-shadow: 10px 10px 10px rgba(211, 211, 211, 0.356);
+}
+.sec3 .box2:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1ms;
+    box-shadow: 10px 10px 10px rgba(211, 211, 211, 0.356);
+}
+.sec3 .box3:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 1ms;
+    box-shadow: 10px 10px 10px rgba(211, 211, 211, 0.356);
+}
+
+.sec4 h3::after{
+    display:block;
+    height: 4px;
+    background-color: rgba(108, 206, 206, 0.986);
+    content:" ";
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 480px;
+    
+}
+.sec4 a{
+    text-decoration: none;
+}
+.sec4 {
+    margin-bottom: 150px;
+}
+.sec4 .card:hover{
+    cursor: pointer;
+}
+.sec4 .card:hover a{
+    font-weight:300px;
+    padding:10px;
+    background-color:rgb(83, 223, 70);
+    border-radius: 20px;
+    color:white;
+}
+.sec4 .c1:hover{
+    background-image: url(img/img1.jpg)!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.04);
+    transition: 0.5ms;
+}
+.sec4 .c2:hover{
+    background-image: url(img/img2.jpg)!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.04);
+    transition: 0.5ms;
+}
+.sec4 .c3:hover{
+    background-image: url(img/img3.jpg)!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.04);
+    transition: 0.5ms;
+}
+.sec4 .c4:hover{
+    background-image: url(img/img5.jpg)!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.04);
+    transition: 0.5ms;
+}
+.sec4 .c5:hover{
+    background-image: url(img/img7.jpg)!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.04);
+    transition: 0.5ms;
+}
+.sec4 .c6:hover{
+    background-image: url(img/img6.jpg)!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1.04);
+    transition: 0.5ms;
+}
+.sec5{
+    margin-top: 20px;
+    margin-bottom:150px;
+    background-image: url(img/back.jpeg);
+    height: 110vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.sec5 h3::after{
+    display:block;
+    height: 4px;
+    background-color: rgba(108, 206, 206, 0.986);
+    content:" ";
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 530px;
+    
+}
+.sec6 {
+    margin-bottom: 150px;
+}
+.sec6 h3::after{
+    display:block;
+    height: 4px;
+    background-color: rgba(108, 206, 206, 0.986);
+    content:" ";
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 500px;
+    
+}
+.carousel-indicators li{
+    background-color: rgb(95, 95, 216)!important;
+    height:5px!important;
+    width:5px;  
+}
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color:blue!important;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.sec6 .card {
+    background-color:white;
+}
+.foot{
+   
+    background:radial-gradient(rgba(0, 0, 255, 0.534),rgb(151, 51, 129));
+    height: 35vh;
+}
+.foot a{
+    color:white;
+    text-decoration:none;
+}
+
+.foot i{
+    font-size:30px;
+    color: black;
+}
+.foot .f{
+    color:rgba(21, 15, 99, 0.568);
+}
+.foot .t{
+    color:rgb(98, 221, 243);
+}
+.foot .i{
+    color:rgb(228, 41, 57);  
+}
+.foot .c{
+    font-size:15px;
+}
